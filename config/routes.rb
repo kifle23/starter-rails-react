@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
   namespace :api do
     get 'greetings/random'
   end
