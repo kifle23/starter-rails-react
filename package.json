@@ -11,5 +11,11 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3"
   }
 }
